@@ -10,7 +10,7 @@ Roughly a year ago, I set myself the challenge of implementing a set of function
 
 ## USAGE :hammer:
 
-### Use ***Zeppo** in a Node.js project
+### Use ***Zeppo*** in a Node.js project
 
 To use ***Zeppo*** in a Node.js project, run this command in your project's root directory:
 
