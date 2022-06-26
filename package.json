@@ -1,0 +1,21 @@
+{
+  "name": "zeppo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtheblackunicorn/zeppo.git"
+  },
+  "keywords": [
+    "security",
+    "passwords"
+  ],
+  "type": "module",
+  "author": "Alexander Abraham <youreccentricity@outlook.com> (http://angeldustduke.art)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamtheblackunicorn/zeppo/issues"
+  },
+  "homepage": "https://github.com/iamtheblackunicorn/zeppo#readme"
+}
