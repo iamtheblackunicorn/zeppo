@@ -86,6 +86,11 @@ $ node .
 - Upload to GitHub.
 - Upload to NPM.
 
+### version 1.1.0
+
+- New license file.
+- Better documentation.
+
 ## NOTE :scroll:
 
 - *Zeppo :crystal_ball: :guitar:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
