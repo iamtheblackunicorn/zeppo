@@ -2,7 +2,7 @@
 
 ![GitHub CI](https://github.com/iamtheblackunicorn/zeppo/actions/workflows/node.yml/badge.svg)
 
-***Convert between numbers of different bases.***
+***Convert between numbers of different bases.*** :crystal_ball: :guitar:
 
 ## ABOUT :books:
 

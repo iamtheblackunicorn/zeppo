@@ -1,7 +1,7 @@
 {
   "name": "zeppo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert between numbers of different bases.",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
