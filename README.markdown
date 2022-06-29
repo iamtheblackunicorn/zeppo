@@ -95,7 +95,7 @@ $ node .
 ### Version 1.2.0
 
 - Updated documentation.
-- Added a function to check whether a number is a binary number.
+- Added a function to check whether a string is a binary number or not.
 
 ## NOTE :scroll:
 
