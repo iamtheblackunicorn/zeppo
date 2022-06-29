@@ -30,6 +30,7 @@ Be sure to also add the `"type":"module"` flag to your project's manifest, `pack
 - `binToDec(binaryNumber)`: Converts a base 2 number to a base 10 number.
 - `decToBin(decimalNumber)`: Converts a base 10 number to a base 2 number.
 - `hexToDec(hexNumber)`: Converts a base 16 number to a base 10 number.
+- `isBin(expr)`: Checks whether the supplied string is a binary number or not.
 - `testAll()`: Tests all of the above.
 
 ### Example
@@ -86,10 +87,15 @@ $ node .
 - Upload to GitHub.
 - Upload to NPM.
 
-### version 1.1.0
+### Version 1.1.0
 
 - New license file.
 - Better documentation.
+
+### Version 1.2.0
+
+- Updated documentation.
+- Added a function to check whether a number is a binary number.
 
 ## NOTE :scroll:
 

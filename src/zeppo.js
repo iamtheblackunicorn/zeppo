@@ -102,6 +102,25 @@ export function hexToDec(hexNumber) {
     return result.toString();
 }
 
+// Checks whether the supplied number is 
+// a binary number and returns a boolean based on this.
+export function isBin(expr) {
+  let charList = ['1','0'];
+  let exprCharList = expr.split('');
+  var result = true;
+  for (var i = 0; i < exprCharList.length; i++){
+    if (exprCharList[i] === charList[0]
+      || exprCharList[i] === charList[1]
+    ) {
+        // Do nothing.
+    }
+    else {
+      result = false;
+    }
+  }
+  return result;
+}
+
 // Tests all of the above.
 export function testAll(){
   let testArray = [1,2,3,4];
@@ -113,5 +132,9 @@ export function testAll(){
   console.log(binToDec(binaryNum));
   console.log(decToBin(21));
   let testHexNum = 'FF7BAC';
+  let testBinNum = '1010101';
+  let impostorBin = '1010101A';
   console.log(hexToDec(testHexNum));
+  console.log(isBin(testBinNum));
+  console.log(isBin(impostorBin));
 }

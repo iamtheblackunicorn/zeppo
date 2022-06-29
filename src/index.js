@@ -13,6 +13,7 @@ import {
     letterIndex,
     getLetterFromIndex,
     hexToDec,
+    isBin,
     testAll
 } from './zeppo.js';
 
@@ -23,5 +24,12 @@ export default {
     letterIndex,
     getLetterFromIndex,
     hexToDec,
+    isBin,
     testAll
 };
+
+function main(){
+    testAll();
+}
+
+main();
