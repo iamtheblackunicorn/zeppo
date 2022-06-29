@@ -97,6 +97,11 @@ $ node .
 - Updated documentation.
 - Added a function to check whether a string is a binary number or not.
 
+### Version 1.3.0
+
+- Updated documentation.
+- Added a function to check whether a string is an integer or not.
+
 ## NOTE :scroll:
 
 - *Zeppo :crystal_ball: :guitar:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*

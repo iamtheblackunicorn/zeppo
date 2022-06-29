@@ -6,6 +6,7 @@ Licensed under the MIT license.
 
 'use strict';
 
+// Importing all functions from './zeppo.js'.
 import {
     decToBin,
     binToDec,
@@ -14,9 +15,11 @@ import {
     getLetterFromIndex,
     hexToDec,
     isBin,
+    isInt,
     testAll
 } from './zeppo.js';
 
+// Exporting all functions.
 export default {
     decToBin,
     binToDec,
@@ -25,11 +28,6 @@ export default {
     getLetterFromIndex,
     hexToDec,
     isBin,
+    isInt,
     testAll
 };
-
-function main(){
-    testAll();
-}
-
-main();

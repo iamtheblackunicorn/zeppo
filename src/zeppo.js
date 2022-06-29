@@ -121,6 +121,19 @@ export function isBin(expr) {
   return result;
 }
 
+// A function to check whether a string
+// is an integer.
+export function isInt(expr){
+  var result = false;
+  if (isNaN(expr) === true) {
+      // Do nothing.
+  }
+  else {
+      result = true;
+  }
+  return result;
+}
+
 // Tests all of the above.
 export function testAll(){
   let testArray = [1,2,3,4];
@@ -134,7 +147,11 @@ export function testAll(){
   let testHexNum = 'FF7BAC';
   let testBinNum = '1010101';
   let impostorBin = '1010101A';
+  let testInt = '10';
+  let impostorInt = 'AB';
   console.log(hexToDec(testHexNum));
   console.log(isBin(testBinNum));
   console.log(isBin(impostorBin));
+  console.log(isInt(testInt));
+  console.log(isInt(impostorInt));
 }
